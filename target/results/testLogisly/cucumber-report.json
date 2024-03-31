@@ -1,0 +1,487 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-31T08:31:05.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3897717900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "process login until checkout with happy path",
+        "description": "",
+        "id": "process-checkout-on-swag-labs-and-login;process-login-until-checkout-with-happy-path",
+        "after": [
+          {
+            "result": {
+              "duration": 2042025900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 500744700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user direct to swag labs",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_direct_to_swag_labs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4171496000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user on swag labs user login with valid credential",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_on_swag_labs_user_login_with_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4292079700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click button login",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_click_button_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4069818200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user success login into swag labs \"Products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Products\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_success_login_into_swag_labs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4303725000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user shorting current product from Z-A",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_shorting_current_product_from_ZtoA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4050325400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "display product \"Sauce Labs Onesie\" on top list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Onesie\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.displayExpectedProduct(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2236032800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Select first product on list of products",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_select_first_product_on_list_of_products()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2243089100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user open menu checkout",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_open_menu_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4048016400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "display the product that checkouted \"Sauce Labs Onesie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Onesie\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.display_the_product_that_checkouted(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237934000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user checkout item",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_checkout_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2077572300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user input firstname \"irfan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"irfan\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_input_firstname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095594600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input lastname \"azhar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"azhar\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_input_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095089900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user input postal code \"17112\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"17112\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_input_postal_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2263101500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click button continue",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_click_button_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2251371500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click button finish on overview",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_click_button_finish_on_overview()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4024455700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user will get info success order \"Thank you for your order!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order!\"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_will_get_info_success_order(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@checkout"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-31T08:31:58.464Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3321943800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "failed login due to locked user",
+        "description": "",
+        "id": "process-checkout-on-swag-labs-and-login;failed-login-due-to-locked-user",
+        "after": [
+          {
+            "result": {
+              "duration": 802089500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 568132700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user direct to swag labs",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_direct_to_swag_labs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4193088600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user on swag labs user login with locked user credential",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_on_swag_labs_user_login_with_locked_user_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4272119600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click button login",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_click_button_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048348600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user failed login and display message \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_failed_login_and_display_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@lockeduser"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-31T08:32:13.674Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2998922400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "failed login due to not match credential",
+        "description": "",
+        "id": "process-checkout-on-swag-labs-and-login;failed-login-due-to-not-match-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 801167100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 512983900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user direct to swag labs",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_direct_to_swag_labs()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4151962700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user on swag labs user login with not match credential",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_on_swag_labs_user_login_with_not_match_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4263545100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user click button login",
+            "match": {
+              "location": "steps.swagLabs.swagLabsSteps.user_click_button_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053792800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user failed login and display message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.swagLabs.swagLabsSteps.user_failed_login_and_display_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@notMatchCredential"
+          }
+        ]
+      }
+    ],
+    "name": "process checkout on swag labs and login",
+    "description": "",
+    "id": "process-checkout-on-swag-labs-and-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/swagLabs.feature",
+    "tags": [
+      {
+        "name": "@all",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
