@@ -32,8 +32,8 @@ public class DriverManager
 				break;
 	
 			case "chrome":
-//				WebDriverManager.chromedriver().setup();
-				WebDriverManager.chromedriver().driverVersion("123").setup();
+				WebDriverManager.chromedriver().clearDriverCache().setup();
+				WebDriverManager.chromedriver().clearResolutionCache().setup();
 				//Create a map to store  preferences
 				Map<String, Object> prefs = new HashMap<>();
 				//add key and value to map as follow to switch off browser notification
