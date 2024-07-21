@@ -10,7 +10,7 @@ import java.io.IOException;
 public class BaseTestRunner extends AbstractTestNGCucumberTests
 {
     @BeforeClass(alwaysRun=true)
-    @Parameters({"firefox"})
+    @Parameters({"chrome"})
     public void beforeClass(String browserName) throws IOException, InterruptedException
     {
         ThreadManager.setBrowser(browserName);
